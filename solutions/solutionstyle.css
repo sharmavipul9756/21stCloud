@@ -1,0 +1,79 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+@media (max-width: 980px)
+.callout img {
+    max-width: 100%;
+}
+.service-wrapper img {
+    margin-bottom: 0;
+    box-shadow: none;
+    border-radius: 0;
+    border: none;
+}
+img {
+    vertical-align: middle;
+}
+#inner_page p, #inner_no_bg p, #inner_page ol {
+    color: #4a4a4a;
+    font-size: 15px;
+    line-height: 26px;
+    padding: 0 0px 20px;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6, legend {
+    font-family: 'Poppins',sans-serif;
+    font-weight: 300;
+    line-height: 1.25em;
+    padding: 0;
+    margin: 0;
+    color: #333;
+    text-transform: none!important;
+}
+@media (max-width: 767px)
+#inner_page p, #inner_no_bg p, #inner_page ol {
+    display: inline-block;
+}
+#inner_page p, #inner_no_bg p, #inner_page ol {
+    color: #4a4a4a;
+    font-size: 15px;
+    line-height: 26px;
+    padding: 0 0px 20px;
+    margin: 0;
+}
+.service-wrapper {
+    min-height: 420px;
+    padding: 30px 30px 30px;
+    box-shadow: 0 10px 20px 0 rgba(205,205,205,0.33);
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: all .3s;
+    position: relative;
+    margin-bottom: 30px;
+    background: #fff;
+}
+h2{
+    font-size: xx-large;
+    font-style: normal;
+}
+p{
+    font-size: x-large;
+}
